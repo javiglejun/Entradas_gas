@@ -33,7 +33,7 @@ jobs:
           git config --global user.name github-actions
           git config --global user.email github-actions@github.com
 
-          git add historico_gnl.csv
+          git add historico_entradas_transporte.csv
 
           git diff --cached --quiet || git commit -m "Actualización GNL"
 
