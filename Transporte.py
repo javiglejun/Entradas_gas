@@ -5,7 +5,7 @@ import os
 import pandas as pd
 import requests
 
-CSV_FILE = "historico_entradas.csv"
+CSV_FILE = "historico_entradas_transporte.csv"
 
 BASE_URL = (
     "https://www.enagas.es/content/enagas/es/gestion-tecnica-sistema/"
