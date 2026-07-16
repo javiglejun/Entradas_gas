@@ -72,7 +72,6 @@ def descargar_y_extraer(fecha):
     }
 
     terminales = {
-        "TOTAL": 4,
         "PLANTAS": 5,
         "CCII": 6,
         "AASS": 7,
@@ -83,7 +82,7 @@ def descargar_y_extraer(fecha):
 
     for terminal, col in terminales.items():
 
-        registro[f"{terminal}_Total"] = df.iloc[46, col]
+        registro[f"{terminal}_Total"] = df.iloc[47, col]
    
     return registro
 
